@@ -2,6 +2,8 @@
 
 This project is an extension of [Markdown](https://github.com/cebe/markdown) that adds the ability to convert markdown to terminal output instead of HTML.
 
+This is just a little hobby project I wrote to support a terminal based markdown note taker in PHP. The conversion does it's best, but it's by no means complete or bug free. I'll improve it as my needs demand but use this at your own risk, and don't expect it to look super pretty at this point :)
+
 You can use the setConfig function to set various config options for colorizing the output.
 
 ## Installation
