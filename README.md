@@ -79,7 +79,7 @@ $parser = new SevenEcks\Markdown\MarkdownTerminal;
 echo $parser->parse($markdown);
 ```
 
-[Example Output]: https://github.com/SevenEcks/markdown-terminal/blob/master/example/example.png "Example Output"
+![Example Output](example/example.png)
 
 ## Change Log
 Please see [Change Log](CHANGELOG.md) for more information.
