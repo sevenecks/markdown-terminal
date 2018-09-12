@@ -1,6 +1,3 @@
-lob/master/inline/CodeTrait.php
-https://github.com/cebe/markdown/blob/master/Markdown.php
-
 # Markdown-Terminal
 
 This project is an extension of [Markdown](https://github.com/cebe/markdown) that adds the ability to convert markdown to terminal output instead of HTML.
