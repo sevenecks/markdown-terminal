@@ -81,6 +81,13 @@ echo $parser->parse($markdown);
 
 ![Example Output](example/example.png)
 
+## Known Issues
+
+1. quoted quotes do not work
+2. specifying a language after three backticks (`) does not work and will format weirdly.
+3. Every now and then wonkiness happens with list items
+4. strikethrough won't work on all terminal emulators
+
 ## Change Log
 Please see [Change Log](CHANGELOG.md) for more information.
 
