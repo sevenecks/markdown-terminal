@@ -27,12 +27,12 @@ $markdown = <<<EOT
 ##### Headline 5
 ###### Headline 6
 
-```
+\```
 protected function renderStrong($block)
 {
     return \$this->colorize->bold(\$this->renderAbsy($block[1]));
 }
-```
+\```
 
 * One
 * Two
@@ -79,7 +79,7 @@ $parser = new SevenEcks\Markdown\MarkdownTerminal;
 echo $parser->parse($markdown);
 ```
 
-[Example Output]: https://github.com/sevenecks/markdown-terminalraw/master/src/example/example.png "Example Output"
+[Example Output]: https://github.com/SevenEcks/markdown-terminal/blob/master/example/example.png "Example Output"
 
 ## Change Log
 Please see [Change Log](CHANGELOG.md) for more information.
